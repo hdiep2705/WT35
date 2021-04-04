@@ -1,0 +1,23 @@
+.product{
+	text-align: center;
+	width: 70%;
+	height: 200px;
+	background-color: #dae6f1;
+	border: 1px solid #c8d9ea;
+}
+.left{
+	float: left;
+	padding: 20px;
+}
+.bottom{
+	padding: 40px 20px;
+}
+span:hover{
+	color: #56ffff;
+	text-decoration: underline;
+}
+.bottom span{
+font-weight: bold;
+}
+
+
