@@ -1,0 +1,211 @@
+#header{
+	width: 100%;
+	height: 150px;
+}
+#zent{
+width: 50%;
+height: 100%;
+float: left;
+}
+#aa{
+width: 50%;
+height: 100%;
+float: left;
+
+}
+#zent p{
+	padding: 5px;
+	font-size: 29px;
+    font-weight: bold;
+    font-style: italic;
+}
+#aa ul{
+	list-style: none;
+}
+#aa ul li{
+	float: left;
+	padding: 7px;
+}
+#zent p:hover{
+	color: orange;
+}
+.cc:hover{
+	color: orange;
+}
+#menu{
+	width: 100%;
+	height: 800px;
+}
+#menu-left{
+	width: 20%;
+	height: 100%;
+	
+	float: left;
+}
+#menu-right{
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+#menu-left ul{
+	list-style: none;
+}
+#menu-left ul li{
+	padding: 5px;
+	color:#676262;
+}
+.from{
+	background-color: white;
+	width: 200px;
+	height: 180px;
+	border: 1px solid #f1efef;
+	position: absolute;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+#img{
+	background-image: url("../img/ip.jpg");
+	position: relative;
+	width: 200px;
+    height: 157px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 11px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.word{
+	position: absolute;
+    background-color: #6b6a6a;
+    margin-top: 139px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 199px;
+    color: white;
+}
+#anh1{
+	float: left;
+}
+#img2{
+	background-image: url("../img/travel.jpg");
+	position: relative;
+	width: 200px;
+    height: 157px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 11px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#anh2{
+	float: left;
+	margin-left: 220px;
+}
+#img3{
+	background-image: url("../img/photo.jpg");
+	position: relative;
+	width: 202px;
+    height: 157px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 11px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#anh3{
+	float: left;
+	margin-left: 441px;
+}
+#img4{
+	background-image: url("../img/finance.jpg");
+	position: relative;
+	width: 200px;
+    height: 157px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 11px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#anh4{
+	float: left;
+	margin-top: 200px;
+}
+#img5{
+	background-image: url("../img/movie.jpg");
+	position: relative;
+	width: 200px;
+    height: 157px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 11px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#anh5{
+	float: left;
+	margin-top: 200px;
+	margin-left: 220px;
+}
+#img6{
+	background-image: url("../img/cooking.jpg");
+	position: relative;
+	width: 200px;
+    height: 157px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 11px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#anh6{
+	float: left;
+	margin-top: 203px;
+	margin-left: 220px;
+}
+#img7{
+	background-image: url("../img/fashion.jpg");
+	position: relative;
+	width: 200px;
+    height: 157px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 11px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#anh7{
+	float: left;
+    margin-top: 400px;
+    margin-left: -441px;
+}
+#footer{
+	clear: both;
+	width: 100%;
+	height: 100px;	
+}
+p{
+	font-size: 10px;
+	margin-top: 50px;
+	float: left;
+	text-decoration: none;
+}
+#Footer{
+	margin-left: 200px;
+}
+#Footer>li{
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;
+	line-height: 90px;
+}
+#Footer>li>a{
+	color: #2E64FE;
+}

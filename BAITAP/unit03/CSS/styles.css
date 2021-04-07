@@ -1,0 +1,157 @@
+.all{
+	background: #ffffff;
+	border: 1px solid black;
+	width: 1000px;
+	height: 1387px;
+}
+.Anh img{
+	width: 100%;
+	height: 400px;
+	display: block;
+}
+#banner{
+	background: #594e43;
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid orangered;
+	display: block;
+}
+#banner ul {
+	margin: 0px;
+	padding: 0px;
+}
+#banner ul li{
+	list-style: none;
+	float: left;
+	padding: 25px 10px 25px 0px;
+	border-right: 1px solid #8e8379;
+	color: orangered;
+}
+.menu{
+	width: 100%;
+	height: 800px;
+	
+}
+.content{
+	width: 20%;
+	height: 800px;
+	
+	float: left;
+}
+.main-content{
+	width: 60%;
+	height: 800px;
+	background-color: white;
+	float: left;
+}
+.content1{
+	width: 20%;
+	height: 800px;
+	float: left;
+}
+.idd{
+	height: 200px;
+	border: 2px solid black;
+	margin: 5px;
+}
+#boder{
+	background: url("../imgs/menu_bar.gif");
+}
+.cc{
+	color: blue;
+	text-align:left;
+	margin-left:-40px; 
+	padding:5px; 
+}
+.cc:hover{
+	color: purple;
+}
+#book{
+	background: #efa252;
+	border-radius: 20px;
+	height: 100px;
+    /*width: 500px;*/
+    margin-top: 10px;
+    padding-top: 17px;
+    color: white;
+}
+#bar{
+	background: url("../imgs/main_bar_left.gif");
+	height: 24px;
+	margin-top: 10px;
+}
+#word{
+    text-align: left;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+}
+#sty{
+	margin-top: -2px;
+}
+#bad{
+	background: url("../imgs/main_bar_right.gif");
+	height: 24px;
+	margin-top: 35px;
+}
+#wor{
+	font-weight: bold;
+    text-align: right;
+    padding-right: 9px;
+    padding-top: 2px;
+    color: white;
+}
+.click{
+	color: blue;
+}
+.click:hover{
+	color: purple;
+}
+#bas{
+	background: url("../imgs/main_bar_left.gif");
+	height: 24px;
+	margin-top: 10px;
+
+}
+#woe{
+	font-weight: bold;
+    text-align: right;
+    padding-right: 9px;
+    padding-top: 2px;
+    color: white;
+}
+#content-left{
+	height: 100px;
+	border: 2px solid black;
+	margin: 5px;
+}
+#pp{
+	background: url("../imgs/menu_bar.gif");
+}
+#content-left1{
+	height: 200px;
+	border: 2px solid black;
+	margin: 5px;
+}
+#pp1{
+	background: url("../imgs/menu_bar.gif");
+}
+.uu{
+	color: blue;
+	text-align: left;
+	margin-left: -26px;
+	padding: 2px;
+}
+.uu:hover{
+	color: purple;
+}
+.footer{
+	clear: both;
+	background-color: black;
+	height: 95px;
+	border-top: 5px solid #efa252;
+}
+.footer p{
+	color: white;
+	padding-top: 20px;
+}

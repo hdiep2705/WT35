@@ -1,0 +1,38 @@
+/* *{
+	margin: 0px;
+	padding: 0px;
+} */
+#header{
+	width: 100%;
+	height: 35px;
+	background-color: blue;
+	color: white;
+
+}
+#center{
+	height: 400px;
+}
+#left{
+	width: 20%;
+	height: 100%;
+	background-color: yellow;
+	color: red;
+	float: left;
+}
+#main{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+#right{
+	width: 20%;
+	height: 100%;
+	background-color: pink;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 35px;
+	background-color: green;
+	clear: both;
+}
