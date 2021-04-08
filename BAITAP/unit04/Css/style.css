@@ -208,4 +208,14 @@ p{
 }
 #Footer>li>a{
 	color: #2E64FE;
+	text-decoration: none;
+}
+#menu-left ul li:hover{
+	color: orange;
+}
+.from:hover{
+	color: orange;
+}
+.word:hover{
+	color: orange;
 }
