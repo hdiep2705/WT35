@@ -469,11 +469,13 @@ padding-top: 20px;
 	position: absolute;
 	top: 300px;
 	margin: 0px 5px;
+	color: white;
 }
 .main68 .meter{
 	position: absolute;
 	top: 270px;
 	margin: 0px 5px;
+	color: white;
 }
 #main13{
 	width: 80%;
@@ -492,4 +494,57 @@ padding-top: 20px;
     background: black;
     color: white;
     font-size: 28px;
+}
+#main14{
+	width: 80%;
+	margin-left: 140px; 
+	padding-top: 30px;
+	clear: left;
+}
+.vv img{
+	position: relative;
+}
+.came{
+	position: absolute;
+	color: white;
+	border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    line-height: 2;
+    text-align: center;
+    background: black
+}
+#fotter{
+	width: 100%;
+    background-color: #464444;
+    height: 250px;
+}
+#fotter>h2{
+	color: white;
+	padding: 24px 80px;
+}
+#fotter ul li{
+	list-style: none;
+	color: white;
+}
+#fotter ul{
+border-right: 1px solid white;
+}
+.home{
+	float: left;
+	text-align: center;
+	margin: 27px 65px;
+	padding: 0px 30px;
+}
+#hr{
+	clear: left;
+}
+#teams{
+	clear: left;
+	color: white;
+}
+#teams ul li{
+	float: left;
+	margin: 15px 20px;
+
 }
