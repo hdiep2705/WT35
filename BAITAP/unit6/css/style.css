@@ -122,13 +122,23 @@ padding-top: 20px;
 .gallery{
 	padding: 5px 10px;
 }
-.gallery img{
+.split{
 	position: relative;
 }
 .word{
 	color: white;
 	position: absolute;
 	top: 320px;
+}
+.worp{
+	color: white;
+	position: absolute;
+	top: 495px;
+	padding: 2px 5px;
+}
+.worp p{
+	border-left: 3px solid blue;
+
 }
 .word h4{
 	 padding: 2px 5px;
@@ -249,6 +259,36 @@ padding-top: 20px;
 	width: 30%;
 	float: left;
 	padding-top: 20px;
+}
+#main5-right ul li{
+	list-style: none;
+}
+#main5-right #lateck{
+	background: red;
+    padding: 10px;
+    color: white;
+}
+#main5-right .ben{
+	color: white;
+    padding:20px 10px;
+    background: black;
+    float: left;
+}
+#main5-right .benn{
+	color: white;
+    padding:20px 10px;
+    background:#585858;
+    float: left;
+}
+#rcorners{
+	width: 20px;
+	height: 20px;
+	border:1px solid red;
+	background: red;
+	border-radius: 50%;
+	text-align: center;
+	float: left;
+	margin: 6px 7px;
 }
 #pick-top img{
 	width: 100%;
@@ -437,10 +477,41 @@ padding-top: 20px;
     float: left;
 }
 #main11-left{
-	width: 30%;
+	width: 28%;
 	float: left;
 	padding-top: 20px;
 	clear: left;
+	margin: 0px 10px;
+}
+#main11-left ul li{
+	list-style: none;
+}
+#main11-left #lateck{
+	background: red;
+    padding: 10px;
+    color: white;
+}
+#main11-left .ben{
+	color: white;
+    padding:20px 10px;
+    background: black;
+    float: left;
+}
+#main11-left .benn{
+	color: white;
+    padding:20px 10px;
+    background:#585858;
+    float: left;
+}
+#rcorners{
+	width: 20px;
+	height: 20px;
+	border:1px solid red;
+	background: red;
+	border-radius: 50%;
+	text-align: center;
+	float: left;
+	margin: 6px 7px;
 }
 #main11-right{
 	width: 70%;
