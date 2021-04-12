@@ -1,0 +1,438 @@
+*{
+	margin: 0;
+}
+#header{
+	width: 100%;
+	background-color: #464444;
+	height: 100px;
+}
+#wod{
+	color: white;
+	float: left;
+	font-size: 25px;
+	padding-left: 60px;
+    padding-top: 20px;
+}
+#wor{
+	color:  white;
+	float: left;
+	 padding-left: 60px;
+    padding-top: 29px;
+}
+.icon-header{
+color: orange;
+padding-left: 58px;
+padding-top: 20px;
+}
+#id{
+	background: black;
+	width: 100%;
+	height: 80px;
+}
+#menu{
+	width: 100%;
+	height: 60px;
+	background: black;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+}
+#menu ul li{
+	float: left;
+    list-style: none;
+    border-right: 1px solid white;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    padding: 15px;
+ }
+.icon-cha{
+	position: relative;
+}
+.icon-right{
+	position: absolute;
+    left: 231px;
+    top: 124px;
+    color: white;
+    background: black;
+}
+.icon-xx{
+	color: black;
+    position: absolute;
+    right: 462px;
+    top: 121px;
+}
+.icon-x{
+	position: relative;
+
+}	
+#setting{
+	line-height: 57px;
+}
+
+#main1{
+	width: 80%;
+	margin-left: 140px;
+	padding-top: 30px;
+}
+#main-left{
+	width: 50%;
+	float: left;
+
+}
+
+#main-left span{
+	font-size: 30px;
+}
+#img1 img{
+	width: 560px;
+	position: relative;
+}
+.x{
+	position: absolute;
+	top: 400px;
+    color: white;
+    padding-left: 10px;
+}
+.xx{
+	position: absolute;
+	top: 450px;
+    color: white;
+    padding-left: 10px;
+}
+.xxx{
+	position: absolute;
+    border-left: 3px solid red;
+    top: 500px;
+    color: white;
+    padding-left: 12px;
+    margin: 12px;
+}
+#main-right{
+	width: 50%;
+	float:left;
+	padding-top: 30px;
+}
+.posivo{
+	float: left;
+	width: 45%;
+	
+}
+.gallery{
+	padding: 5px 10px;
+}
+.gallery img{
+	position: relative;
+}
+.word{
+	color: white;
+	position: absolute;
+	top: 320px;
+}
+.word h4{
+	 padding: 2px 5px;
+}
+.word p{
+	border-left: 3px solid blue;
+	margin: 5px 5px;
+}
+#main2{
+	width: 80%;
+	margin-left: 140px; 
+	padding-top: 30px;
+	clear: left;
+}
+#main2 span{
+	border-left: 4px solid red;
+	padding: 0px 5px;
+    font-weight: bold;
+    float: left;
+}
+
+.imges{
+	width: 30%;
+	float: left;
+	padding-top: 10px;
+	
+}
+.bell p{
+	border-left: 3px solid red;
+	margin: 10px 0px;
+	padding-left: 5px;	
+}
+#main3{
+	width: 80%;
+	margin-left: 140px; 
+	padding-top: 30px;
+	clear: left;
+}
+#main3 span{
+	border-left: 4px solid yellow;
+	padding: 0px 5px;
+    font-weight: bold;
+    float: left;
+}
+.bel p{
+	border-left: 3px solid yellow;
+	margin: 10px 0px;
+	padding-left: 5px;	
+}
+#main4{
+	width: 100%;
+	clear: left;	
+	background: url("../img/p07s9yxt.jpg");
+	background-size: 100%;
+	height: 400px;
+}
+#meo{
+	width: 80%;
+	margin-left: 140px; 
+	padding-top: 30px;
+}
+#meo #rer{
+	float: left;
+	width: 50%;
+	color: white;
+}
+#meo #reel{
+	float: left;
+	width: 50%;
+}
+#res{
+	border: 1px solid white;
+	width: 100px;
+	height: 20px;
+	border-radius: 10px;
+	color: white;
+	padding: 1px 5px;
+	margin-left: 478px;
+}
+#meomeo{
+	width: 80%;
+	margin-left: 140px; 
+	padding-top: 30px;
+	clear: left;
+}
+.meo1{
+	float: left;
+	margin-top: 35px;
+	width: 30%;
+	margin:-8px 15px;
+}
+.meo2{
+	background: white;
+	margin-top: -4px;
+    padding: 0px 15px;
+    width: 320px;
+    font-size: 23px;
+}
+#main5{
+	width: 80%;
+	margin-left: 140px; 
+	padding-top: 30px;
+	clear: left;
+}
+#main5 span{
+	border-left: 4px solid blue;
+	padding: 0px 5px;
+    font-weight: bold;
+    float: left;
+}
+#main5-left{
+	width: 70%;
+	float: left;
+	padding-top: 20px;
+	clear: left;
+}
+#main5-right{
+	width: 30%;
+	float: left;
+	padding-top: 20px;
+}
+#pick-top img{
+	width: 100%;
+}
+#moun{
+	position: relative;
+}
+#pp{
+	position: absolute;
+	top:2140px;	
+}
+#wop{
+	color: white;
+	padding: 0px 10px;
+}
+#p{
+	position: absolute;
+	top:2100px;
+}
+#ppp{
+	position: absolute;
+	top:2170px;
+}
+#pick-bottom{
+	width: 100%;
+	float: left;
+}
+#main6{
+	width: 100%;
+	clear: left;	
+	background: url("../img/cayxanh.jpg");
+	background-size: 100%;
+	height: 400px;
+}
+#main6 h1{
+	border: 5px solid #2f8734;
+	width: 228px;
+}	
+#main7{
+	width: 80%;
+	margin-left: 140px; 
+	padding-top: 30px;
+	clear: left;
+}
+.main69{
+	width: 45%;
+	float: left;
+	margin: 15px;
+}
+.main69 img{
+	width: 100%;
+}
+.main69 #busi{
+	border-left: 3px solid red;
+	padding: 0px 5px;
+}
+.main69 #futu{
+	border-left: 3px solid black;
+	padding: 0px 5px;
+}
+#main8{
+	width: 100%;
+	clear: left;
+	height: 200px;
+	display: block;
+	}
+#main8-con{
+	width: 80%;
+	margin-left: 140px; 
+	padding-top: 30px;
+	clear: left;
+	position: relative;
+}
+ #main8-con>img{
+	width: 100%;
+	margin-top: 10px;
+	
+}
+#main8-con span{
+	border-left: 3px solid #0288d1;
+    padding: 0px 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.video{
+	 position: relative;
+}
+.plays{
+	position: absolute;
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    top: 64px;
+    text-align: center;
+    line-height: 2;
+    background: black;
+    color: white;
+    font-size: 28px;
+}
+#what{
+	position: absolute;
+	top: 600px;
+    color: white;
+}
+#lorem{
+	position: absolute;
+	top: 630px;
+    color: white;
+    
+}
+
+#uk{
+	position: absolute;
+	border-left: 3px solid #0288d1;
+    padding: 0px 10px;
+    top: 660px;
+    color: white;
+}
+#main9{
+	width: 80%;
+	margin-left: 140px; 
+	padding-top: 0px;
+	clear: left;
+}
+#latest{
+	width: 100%;
+	height: 250px;
+	background: #363636;
+	clear: left;
+}
+#latest ul li{
+	list-style: none;
+	float: left;
+	padding: 5px 10px;
+	color: white;
+}
+#reco{
+	border-bottom: 3px solid white;
+}
+.ok{
+	width: 100%;
+	padding-top: 55px;
+}
+.ok69{
+	float: left;
+	margin-top: 35px;
+	width: 30%;
+	margin:-8px 15px;
+}
+
+#main10{
+	width: 80%;
+	margin-left: 140px; 
+	padding-top: 50px;
+	clear: left;
+	height: 35px;
+}
+#BBC{
+	width: 20%;
+	height: 100%;
+	background: red;
+	float: left;
+    line-height: 2;
+    text-align: center;
+    color: white;
+}
+#ON{
+	width: 80%;
+	background: black;
+	height: 100%;
+	float: left;
+	color: white;
+	line-height: 2;
+	text-indent: 10px;
+}
+#main11{
+	width: 80%;
+	margin-left: 140px; 
+	padding-top: 30px;
+	clear: left;
+}
+#main11 span{
+	border-left: 4px solid blue;
+	padding: 0px 5px;
+    font-weight: bold;
+    float: left;
+}
