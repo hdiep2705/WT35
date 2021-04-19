@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		#imgg{
+			width: 200px;
+			height: 200px;
+			border: 1px solid black;	
+			position: relative;	
+			}
+		#img1{
+			
+			border-top: 1px solid black;
+			border-left: 1px solid black;
+			z-index: -1;
+			margin: 10px;
+			position: absolute;
+		}
+		#img2 img{
+			width:150px;
+			height: 150px;
+			margin: 22px;
+		}
+		#img3{
+			border-bottom: 1px solid black;
+			border-right: 1px solid black;
+			z-index: -1;
+			position: absolute;
+		}
+	</style>
+	<title>Document</title>
+</head>
+<body>
+	<div id="imgg">
+		<div id="img1"></div>
+		<div id="img2">
+			<img src="img/p0841x5x.jpg" >
+		</div>
+		<div id="img3"></div>
+		
+	</div>
+</body>
+</html>

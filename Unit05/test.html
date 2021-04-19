@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style>
+	/* *{
+		margin: 0px;
+	} */
+	#menu{
+		width: 600px;
+		height: 600px;
+		position: relative;
+		border: 1px solid black;
+		background: url("../images/anhdep.jpg") ;
+	}
+	#goo{
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		border: 1px solid yellow;
+		animation-name: enter;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;	
+		animation-delay: 2s;
+		animation-direction: reverse;
+
+		/* border-radius: 50%; */
+	}
+	@keyframes enter {
+		0%{ background: red; left: 0; top: 0; }
+		25%{background: black; left: calc(100% - 50px); top: 0;}
+		50%{background: blue; left:calc(100% - 50px); top: calc(100% - 50px);}
+		75%{background: #ccc; left: 0px; top: calc(100% - 50px);}
+		100%{background: #f8f8; left: 0px; top: 0px;}
+	}
+</style>
+<body>
+	<div id="menu">
+		<div id="goo"></div>
+	</div>
+	
+</body>
+</html>
