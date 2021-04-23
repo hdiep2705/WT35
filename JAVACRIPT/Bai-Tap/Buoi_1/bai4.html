@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bài 4</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var numbN = Number(prompt('Nhập vào số N'))
+		var numbM = Number(prompt('Nhập vào số M'))
+		var numbK = Number(prompt('Nhập vào số K'))
+		var s=0;
+		for (var i = numbN+1; i < numbM; i++) {
+			if (i%numbK==0) {
+				s+=i;
+			}	
+		}
+		document.write('Tổng của dãy số chia hết cho k là: S = '+s)
+	</script>
+</body>
+</html>
