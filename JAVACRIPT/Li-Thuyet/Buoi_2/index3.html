@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+		<b>
+			<p>Thẻ p</p>
+			121212
+		</b>
+
+		<h1>Thẻ h1</h1>
+		<ul id="ul">
+			<li>A</li>
+			<li>B</li>
+			<li>C</li>
+		</ul>
+	</div>
+
+	<script>
+		var p = document.getElementsByTagName('p')[0];
+		p.parentNode.style.color ="red";
+	 	var div = document.getElementsByTagName('div')[0].children;
+	 	div[1].style.color = "blue";
+
+	 	var ul = document.getElementById('ul');
+	 	ul.firstElementChild.style.color = "green";
+
+	</script>
+</body>
+</html>

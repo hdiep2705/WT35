@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+<p>Boy nhà nghèo</p>
+<button id="test">CLICK </button>
+
+<h1> hover h1</h1>
+
+<input type="text1" id="text1">
+
+<select name="" id="test0">
+	<option value="Hải Dương">Hải Dương</option>
+	<option value="Hà Nội">Hà Nội</option>
+</select>
+
+
+<script>
+	var test = document.getElementById('test0');
+	test.addEventListener('change', function(){
+		// console.log(test.value);
+		alert(test.value);
+	})
+
+
+	var nn = document.getElementById('test');
+	nn.addEventListener('click', function(){
+		document.getElementsByTagName("p")[0].
+		style.color ="red";
+	});
+
+	var h1 = document.getElementsByTagName('h1')[0];
+	h1.addEventListener('mouseover', function(){
+		h1.style.color = "red";
+	})
+	h1.addEventListener('mouseout', function(){
+		h1.style.color = "black";
+	})
+
+	var text1 = document.getElementById('text1');
+		text1.addEventListener('blur', function(){
+			text1.style.backgroundColor = "yellow";
+		})
+		text1.addEventListener('focus', function(){
+			text1.style.backgroundColor = "red";
+		})
+
+</script>
+</body>
+</html>
