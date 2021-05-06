@@ -41,9 +41,12 @@
 			var font = document.getElementById("font");
 			var fontSize = 0;
 			
-			small.addEventListener('click',function(){
-				fontSize -= 40;
+			big.addEventListener('click',function(){
+				fontSize += 40;
 				font.style.fontSize = (fontSize+100) +"%";
+			})
+			default1.addEventListener('click', function(){
+				fontSize = 0;
 			})
 	</script>
 
